@@ -40,7 +40,7 @@ router.get("/search", async (req, res) => {
     );
     res.render("pages/details", { pokemon: response.data });
   } catch (error) {
-    res.status(500).send("Error fetching Pokémon data");
+    res.status(500).send("Error fetching Pokémon dataa");
   }
 });
 
